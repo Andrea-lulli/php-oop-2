@@ -7,9 +7,9 @@ include_once __DIR__ . '/classi/giocattoli.php';
 
 $Category = [
 
-    'cane' => new category('cane', 'fa-solid fa-dog'),
-    'uccello' => new category('uccello', 'fa-solid fa-dove'),
-    'gatto' => new category('gatto', 'fa-solid fa-cat'),
+    'cane' => new category('Cane', 'fa-solid fa-dog'),
+    'uccello' => new category('Uccello', 'fa-solid fa-dove'),
+    'gatto' => new category('Gatto', 'fa-solid fa-cat'),
 
 ];
 
