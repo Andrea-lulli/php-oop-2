@@ -82,7 +82,7 @@ $Prodotti = [
 
 
 
-                    <?php if ($key == 'accessori'){?>
+                    <?php if (get_class($elem) == 'accessori'){?>
                     <p>
                         <?php echo  "Meteriale: $elem->materiale"?>
                     </p>
@@ -91,7 +91,7 @@ $Prodotti = [
                     </p>
 
                     <?php }?>
-                    <?php if ($key == 'cibo' || $key == 'cibo1'){?>
+                    <?php if (get_class($elem) == 'cibo' || $key == 'cibo1'){?>
                     <p>
                         <?php echo" Peso netto: $elem->peso g"?>
                     </p>
@@ -101,7 +101,7 @@ $Prodotti = [
 
                     <?php }?>
 
-                    <?php if ($key == 'giocattoli'){?>
+                    <?php if (get_class($elem) == 'giocattoli'){?>
                     <p>
                         <?php echo "Dimensioni: $elem->dimensioni"?>
                     </p>
